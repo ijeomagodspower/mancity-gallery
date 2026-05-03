@@ -23,7 +23,7 @@ html {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 250px);
+    grid-template-rows: repeat(3, 400px);
     gap: 15px;
     justify-content: center;
     justify-self: center;
