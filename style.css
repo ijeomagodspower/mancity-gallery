@@ -80,3 +80,40 @@ html {
     height: 100%;
     object-fit: cover;
 }
+
+/* MOBILE DESIGN */
+
+@media screen and (max-width : 768px) {
+    .section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px;
+    gap: 15px;
+    justify-content: center;
+    justify-self: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 174, 255, 0.8);
+
+}
+
+/*IMAGE-CONTAINER SIZE*/
+
+.grid-con {
+    height: 400px;
+}
+
+.container-1{
+    grid-row: auto;
+}
+
+.container-4 {
+    grid-column: auto;
+}
+
+.container-5 {
+    grid-column: auto;
+}
+
+}
